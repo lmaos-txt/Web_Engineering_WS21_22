@@ -143,7 +143,7 @@ when 3
 else
     usuage()
 end
-=begin
+
 puts "Werbungskosten-Aufgabe"
 werbungs = [['zvE','Grenzsteuersatz','Einkommenssteuer', 'gesenktes zvE','gesenkter Grenzsteuersatz', 
 'gesenkte Einkommenssteuer']]
@@ -161,4 +161,3 @@ werbungs.append([50000,e.grenzsteuersatz(50000),e.ek_steuer(50000),
 (50000-2000),e.grenzsteuersatz(50000-2000),e.ek_steuer(50000-2000)])
 
 werbungs.to_table
-=end
